@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.intervention-card {
+    width: 40ch;
+    height: 20ch;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+#padding-sidebar {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+ul {
+    padding-top: 4.5%;
+}
+
+.pt-40{
+    padding-top: 40px;
+}
+
+.pb-40{
+    padding-bottom: 40px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
